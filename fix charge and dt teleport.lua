@@ -39,8 +39,8 @@ local g_ctx = {
 }
 
  
-local dt_fix_enable = ui.new_checkbox("Rage", "Other", "Enable DT Fix")
-local dt_speed = ui.new_slider("Rage", "Other", "DT Speed %", 0, 100, 100, true, "%", 1)
+local dt_fix_enable = ui.new_checkbox("Rage", "Aimbot", "Enable DT Fix")
+local dt_speed = ui.new_slider("Rage", "Aimbot", "DT Speed %", 0, 100, 100, true, "%", 1)
 local dt_teleport = ui.new_combobox("Rage", "Aimbot", "Teleport Mode", "Off", "On Last Tick", "Always")
 local dt_charge_mode = ui.new_combobox("Rage", "Aimbot", "Charge Mode", "Auto", "Manual")
  
